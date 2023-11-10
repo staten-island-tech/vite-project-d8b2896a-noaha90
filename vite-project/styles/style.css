@@ -1,0 +1,129 @@
+
+:root{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  --white: rgb(244, 246, 255);
+  --gray: #484847;
+  --dark: #bead96;
+  --gold: #c59506;
+  --silver: #C0C0C0;
+  border: 10px solid var(--border);
+  text-align: center;
+  transition: 1s;
+
+}
+
+
+.box{
+  transition: .25s;
+  --border: var(--dark);
+  --main: var(--white);
+  --secondary: var(--gray);
+  min-height: 25vh;
+  border: 3px solid var(--border);
+ background-color: var(--main);
+ padding: 5px;
+ border-radius: 4px;
+ width: 28%;
+ height: 30%;
+ margin: 20px;
+ color: var(--secondary);
+}
+
+
+.container{
+  transition: .25s;
+  --border: var(--silver);
+  --main: var(--gray);
+  border: 4px solid var(--border);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--main);
+  margin: 20px;
+}
+
+.invs{
+  padding: 0px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conatinerM{
+  --border: var(--silver);
+  --main: var(--white);
+}
+
+.containerI{
+  --border: var(--gold);
+  --main: var(--white);
+}
+
+.boxM{
+  --border: var(--dark);
+  --main: var(--white);
+  --secondary: var(--gray);
+}
+
+.boxI{
+  --border: var(--dark);
+  --main: var(--gray);
+  --secondary: var(--white);
+}
+
+.main{
+  --main: var(--gray);
+  color: var(--main);
+  background-image: url(https://images5.alphacoders.com/608/608323.png);
+}
+
+.invert{
+  --main: var(--white);
+  color: var(--main);
+  background-image: url(https://images4.alphacoders.com/115/1152333.jpg);
+  }
+
+  button{
+    --button-text: 1rem;
+      align-self: center;
+      font-size: var(--button-text);
+      height: 50%;
+      width: 10%;
+      min-height: 70px;
+      min-width: 100px;
+  }
+
+  .theme, .restore{
+      --button-text: 1.5rem;
+    --border: var(--gold);
+    height: 60%;
+    width: 12%;
+    min-height: 84px;
+    min-width: 120px;
+    border-color: var(--border);
+  }
+
+.im{
+  --border: var(--dark);
+  border: 1px solid var(--border);
+  border-radius: 1px;
+  width: 50%;
+  aspect-ratio: 300/130;
+}
+
+.im:hover{
+  transition: 51s;
+  transform: rotate(362deg);
+}
+
+h1{
+  font-size: 5rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 2px;
+}
+
