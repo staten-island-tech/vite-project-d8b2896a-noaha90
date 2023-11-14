@@ -5,6 +5,8 @@ const array = [
         name: "Washington",
         fight: "N",
         president: "Y",
+        image: "1",
+        tagline: "woah!",
     },
     {
         bill: "Two Dollars",
@@ -12,6 +14,8 @@ const array = [
         name: "Jefferson",
         fight: "Y",
         president: "Y",
+        image: "2",
+        tagline: "woah!",
     },
     {
         bill: "Five Dollars",
@@ -19,6 +23,8 @@ const array = [
         name: "Lincoln",
         fight: "N",
         president: "Y",
+        image: "5",
+        tagline: "woah!",
     },
     {
         bill: "Five Pounds",
@@ -26,13 +32,17 @@ const array = [
         name: "Elizabeth",
         fight: "N",
         president: "N",
+        image: "pound",
+        tagline: "woah!",
     },
     {
         bill: "Ten Dollars",
         price: "10.01",
         name: "Hamilton",
-        fight: "Y",
+        fight: "N",
         president: "N",
+        image: "10",
+        tagline: "woah!",
     },
     {
         bill: "Twenty Dollars",
@@ -40,6 +50,17 @@ const array = [
         name: "Jackson",
         fight: "Y",
         president: "Y",
+        image: "20",
+        tagline: "woah!",
+    },
+    {
+        bill: "Bass",
+        price: "30.01",
+        name: "N",
+        fight: "N",
+        president: "N",
+        image: "bass",
+        tagline: "woah!",
     },
     {
         bill: "Fifty Dollars",
@@ -47,6 +68,8 @@ const array = [
         name: "Grant",
         fight: "N",
         president: "Y",
+        image: "50",
+        tagline: "woah!",
     },
     {
         bill: "One Hundred Dollars",
@@ -54,6 +77,8 @@ const array = [
         name: "Franklin",
         fight: "Y",
         president: "N",
+        image: "100",
+        tagline: "woah!",
     },
     {
         bill: "Whalen Dollar",
@@ -61,7 +86,28 @@ const array = [
         name: "Whalen",
         fight: "N",
         president: "N",
+        image: "whalen",
+        tagline: "woah!",
     },
+    {
+        bill: "Thousand Dollar",
+        price: "1000.01",
+        name: "Cleaveland",
+        fight: "Y",
+        president: "Y",
+        image: "1000",
+        tagline: "woah!",
+    },
+    {
+        bill: "Poke Dollar",
+        price: "6,591.23",
+        name: "N",
+        fight: "N",
+        president: "N",
+        image: "bike",
+        tagline: "woah!",
+    },
+    
 ]
 
 export {array}

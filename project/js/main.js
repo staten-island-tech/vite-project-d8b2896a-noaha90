@@ -2,6 +2,8 @@ import "../styles/style.css"
 import { array } from "./array"
 
 
+
+
 const DOMSelectors = {
   box: document.getElementsByClassName("box"),
   theme: document.querySelector(".theme"),
@@ -12,6 +14,9 @@ const DOMSelectors = {
   restore: document.querySelector(".restore"),
   container: document.getElementsByClassName("container"),
 };
+
+
+cool()
 
 const boxarray = Array.from(DOMSelectors.box)
 let oldBoxArray = boxarray
@@ -164,3 +169,15 @@ function restoreBoxes(){
           main()
           }
   }
+
+  function cool(){
+    array.forEach(box => {
+      console.log(box)
+      document.querySelector(".container").insertAdjacentHTML(
+        "beforeend",
+        `<div class="box" id="itemholder">
+        <h2>Price: $${box.price}</h2>
+       <img class="im" src="d/${box.image}.jpg">
+       <h2>${box.tagline}</h2>
+   </div> `
+    );})}
