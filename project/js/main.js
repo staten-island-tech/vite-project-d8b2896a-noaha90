@@ -163,4 +163,20 @@ function restoreBoxes(){
       else{      
           main()
           }
+<<<<<<< Updated upstream
   }
+=======
+  }
+
+  function cool(){
+    array.forEach(box => {
+      console.log(box)
+      document.querySelector(".container").insertAdjacentHTML(
+        "beforeend",
+        `<div class="box" id="itemholder">
+        <h2>Price: ${box.currency}${box.price}</h2>
+       <img class="${box.border}" src="d/${box.image}.jpg">
+       <h2>${box.tagline}</h2>
+   </div> `
+    );})}
+>>>>>>> Stashed changes
