@@ -2,6 +2,8 @@ import "../styles/style.css"
 import { array } from "./array"
 
 
+
+
 const DOMSelectors = {
   box: document.getElementsByClassName("box"),
   theme: document.querySelector(".theme"),
@@ -13,6 +15,10 @@ const DOMSelectors = {
   container: document.getElementsByClassName("container"),
 };
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 cool()
 
 const boxarray = Array.from(DOMSelectors.box)
@@ -167,7 +173,10 @@ function restoreBoxes(){
           main()
           }
   }
+<<<<<<< Updated upstream
   
+=======
+>>>>>>> Stashed changes
 
   function cool(){
     array.forEach(box => {
@@ -179,4 +188,8 @@ function restoreBoxes(){
        <img class="${box.border}" src="d/${box.image}.jpg">
        <h2>${box.tagline}</h2>
    </div> `
+<<<<<<< Updated upstream
     );})}
+=======
+    );})}
+>>>>>>> Stashed changes

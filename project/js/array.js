@@ -58,7 +58,7 @@ const array = [
         bill: "Twenty Dollars",
         price: "20.01",
         name: "Jackson",
-        fight: "Y", 
+        fight: "Y",
         president: "Y",
         image: "20",
         tagline: "Twenty Dollar Bill!",
