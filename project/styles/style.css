@@ -116,7 +116,13 @@
   aspect-ratio: 300/130;
 }
 
-.im:hover{
+.borderlessim{
+  width: 50%;
+  aspect-ratio: 300/130;
+}
+
+
+.im:hover,.borderlessim:hover{
   transition: 51s;
   transform: rotate(362deg);
 }

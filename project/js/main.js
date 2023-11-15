@@ -2,8 +2,6 @@ import "../styles/style.css"
 import { array } from "./array"
 
 
-
-
 const DOMSelectors = {
   box: document.getElementsByClassName("box"),
   theme: document.querySelector(".theme"),
@@ -15,21 +13,16 @@ const DOMSelectors = {
   container: document.getElementsByClassName("container"),
 };
 
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 cool()
-
 const boxarray = Array.from(DOMSelectors.box)
 let oldBoxArray = boxarray
-
 
 DOMSelectors.theme.addEventListener("click", function(event) {
   theme()
 })
 
-console.log(DOMSelectors.price)
+
 DOMSelectors.price.addEventListener("click", function(event) {
   restoreBoxes();
   priceCheck();
@@ -51,7 +44,6 @@ DOMSelectors.whalen.addEventListener("click", function(event) {
 
 
 DOMSelectors.fight.addEventListener("click", function(event) {
-  console.log(DOMSelectors.fight)
   restoreBoxes();
   fightCheck();
   themeReset()
@@ -106,7 +98,6 @@ function wash(){
 boxarray.forEach(box => {
   let index = boxarray.indexOf(box)
   if(array[index].president == "N"){
-    console.log(array[index].name)
   box.remove()
 }
 })
@@ -117,9 +108,7 @@ boxarray.forEach(box => {
 function priceCheck(){
   boxarray.forEach(box => {
     let index = boxarray.indexOf(box)
-    console.log(array[index].price)
     if(array[index].price < 50){
-      console.log(array[index].name)
     box.remove()
   }
   })
@@ -131,7 +120,6 @@ function bestDollar(){
   boxarray.forEach(box => {
     let index = boxarray.indexOf(box)
     if(array[index].name != "Whalen"){
-      console.log(array[index].name)
     box.remove()
   }
   })
@@ -143,7 +131,6 @@ function bestDollar(){
     boxarray.forEach(box => {
       let index = boxarray.indexOf(box)
       if(array[index].fight == "N"){
-        console.log(array[index].name)
       box.remove()
     }
     })
@@ -173,10 +160,6 @@ function restoreBoxes(){
           main()
           }
   }
-<<<<<<< Updated upstream
-  
-=======
->>>>>>> Stashed changes
 
   function cool(){
     array.forEach(box => {
@@ -188,8 +171,4 @@ function restoreBoxes(){
        <img class="${box.border}" src="d/${box.image}.jpg">
        <h2>${box.tagline}</h2>
    </div> `
-<<<<<<< Updated upstream
     );})}
-=======
-    );})}
->>>>>>> Stashed changes
