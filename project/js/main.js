@@ -13,8 +13,11 @@ const DOMSelectors = {
   container: document.getElementsByClassName("container"),
 };
 
+cool()
+
 const boxarray = Array.from(DOMSelectors.box)
 let oldBoxArray = boxarray
+
 
 DOMSelectors.theme.addEventListener("click", function(event) {
   theme()
@@ -164,3 +167,16 @@ function restoreBoxes(){
           main()
           }
   }
+  
+
+  function cool(){
+    array.forEach(box => {
+      console.log(box)
+      document.querySelector(".container").insertAdjacentHTML(
+        "beforeend",
+        `<div class="box" id="itemholder">
+        <h2>Price: ${box.currency}${box.price}</h2>
+       <img class="${box.border}" src="d/${box.image}.jpg">
+       <h2>${box.tagline}</h2>
+   </div> `
+    );})}
