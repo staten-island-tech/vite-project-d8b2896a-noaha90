@@ -108,7 +108,7 @@
     border-color: var(--border);
   }
 
-.im{
+.im,.borderlessim{
   --border: var(--dark);
   border: 1px solid var(--border);
   border-radius: 1px;
@@ -117,8 +117,7 @@
 }
 
 .borderlessim{
-  width: 50%;
-  aspect-ratio: 300/130;
+  border: 1px solid transparent;
 }
 
 
