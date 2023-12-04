@@ -122,7 +122,7 @@ const array = [
     },
     {
         bill: "Poke Dollar",
-        price: "1,000,001",
+        price: "1000001",
         name: "N",
         fight: "N",
         president: "N",

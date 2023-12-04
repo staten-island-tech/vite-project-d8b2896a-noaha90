@@ -8,13 +8,12 @@
   --silver: #C0C0C0;
   border: 10px solid var(--border);
   text-align: center;
-  transition: 1s;
 
 }
 
 
 .box{
-  transition: .25s;
+    transition: .25s;
   --border: var(--dark);
   --main: var(--white);
   --secondary: var(--gray);
@@ -79,7 +78,7 @@
 .main{
   --main: var(--gray);
   color: var(--main);
-  background-image: url(https://images5.alphacoders.com/608/608323.png);
+  background-image: url(https://i.ytimg.com/vi/Q7A9eftuLTw/maxresdefault.jpg);
 }
 
 .invert{
@@ -114,6 +113,7 @@
   border-radius: 1px;
   width: 50%;
   aspect-ratio: 300/130;
+  z-index: -1;
 }
 
 .borderlessim{
@@ -122,7 +122,7 @@
 
 
 .im:hover,.borderlessim:hover{
-  transition: 51s;
+  transition: 5s;
   transform: rotate(362deg);
 }
 
