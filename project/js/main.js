@@ -9,7 +9,7 @@ function cardcreate(l){
       "beforeend",
       `<div class="box" id="itemholder">
       <h2>Price: ${box.currency}${box.price}</h2>
-     <img class="${box.border}" src="${box.image}">
+     <img class="${box.border}" src="${box.image}" alt="Store Currency">
      <h2>${box.tagline}</h2>
  </div> `
   );
