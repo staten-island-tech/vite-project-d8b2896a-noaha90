@@ -104,7 +104,7 @@ const array = [
         image: "https://i.imgur.com/9WYMAiO.png",
         tagline: "Cerulean City Bike Voucher!",
         border: "borderlessim",
-        currency: '<img src="https://i.imgur.com/SYgj0IE.png">',
+        currency: '<img src="https://i.imgur.com/SYgj0IE.png" alt="PokeDollar">',
         type: ["find bills over 50 units","show all"],
     },
     
