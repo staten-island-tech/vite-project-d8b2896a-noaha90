@@ -30,20 +30,13 @@ function filters(){
   }))}
 
 
-  function invert(){
-    const boxarray = Array.from(DOMSelectors.box)
-    const cArray = Array.from(DOMSelectors.container)
-    cArray.forEach(container =>{
-        container.classList.add("containerI")
-        container.classList.remove("containerM")
-    })
-    boxarray.forEach(box => {
-        box.classList.add("boxI")
-        box.classList.remove("boxM")
-        document.body.classList.remove("main")
-        document.body.classList.add("invert")
-  })
-  }
+
+
+
+
+
+
+  
 
   DOMSelectors.theme.addEventListener("click", function(event) {
     theme()
@@ -71,6 +64,21 @@ function filters(){
         box.classList.remove("boxI")
         document.body.classList.remove("invert")
         document.body.classList.add("main")
+  })
+  }
+
+  function invert(){
+    const boxarray = Array.from(DOMSelectors.box)
+    const cArray = Array.from(DOMSelectors.container)
+    cArray.forEach(container =>{
+        container.classList.add("containerI")
+        container.classList.remove("containerM")
+    })
+    boxarray.forEach(box => {
+        box.classList.add("boxI")
+        box.classList.remove("boxM")
+        document.body.classList.remove("main")
+        document.body.classList.add("invert")
   })
   }
 
